@@ -13,15 +13,15 @@ const Footer = () => {
           <div className="flex flex-col space-y-2">
             <div className="flex items-center justify-center md:justify-start">
               <Phone className="h-5 w-5 mr-2" />
-              <span>+91 1234567890</span>
+              <span>+91 9816739577</span>
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <Mail className="h-5 w-5 mr-2" />
-              <span>contact@radhavallabh.com</span>
+              <span>rvdc57@gmail.com</span>
             </div>
             <div className="flex items-center justify-center md:justify-start">
               <MapPin className="h-5 w-5 mr-2" />
-              <span>123 Medical Street, City, State</span>
+              <span>Near Civil Hospital Sunni, Sunni Himachal Pradesh 171301</span>
             </div>
           </div>
         </div>
