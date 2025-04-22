@@ -15,9 +15,8 @@ const Location = () => {
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Address</h3>
                 <p className="text-gray-600">
-                  Radhavallabh Diagnostic Center<br />
-                  Near Bus Stand, Main Road<br />
-                  Hamirpur, Himachal Pradesh – 177001
+                  RadhaVallabh Diagnostic Centre<br />
+                  31, Sector 1, New Shimla, Himachal Pradesh – 171009
                 </p>
               </div>
             </div>
@@ -29,7 +28,7 @@ const Location = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Working Hours</h3>
                 <p className="text-gray-600">
                   Monday – Saturday: 9:00 AM – 8:00 PM<br />
-                  Sunday: 9:00 AM – 2:00 PM
+                  Sunday: Closed
                 </p>
               </div>
             </div>
@@ -40,9 +39,9 @@ const Location = () => {
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">How to Reach</h3>
                 <p className="text-gray-600">
-                  - Located on Main Road near Hamirpur Bus Stand<br />
-                  - Easily accessible by auto, bus, and private vehicle<br />
-                  - Parking available nearby
+                  - Located near the Shimla bypass road, easily accessible by car or local transport<br />
+                  - Just a short walk from the nearby bus stop<br />
+                  - Ample parking available
                 </p>
               </div>
             </div>
@@ -51,14 +50,14 @@ const Location = () => {
           {/* Embedded Map */}
           <div className="w-full h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.071720646336!2d77.1536418!3d30.9006514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39058d578497b96b%3A0x4c444d3fba93c667!2sRadhavallabh%20Diagnostic%20Center!5e0!3m2!1sen!2sin!4v1713776212345!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.0847441762776!2d77.1224041!3d31.2418193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3905776f7792fc4d%3A0x26a6d23522c28873!2sRadhaVallabh%20Diagnostic%20Centre!5e0!3m2!1sen!2sin!4v1713776253615!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Radhavallabh Diagnostic Center"
+              title="RadhaVallabh Diagnostic Centre"
               className="w-full h-full"
             ></iframe>
           </div>
@@ -66,7 +65,7 @@ const Location = () => {
           {/* Get Directions Button */}
           <div className="p-6 text-center">
             <a
-              href="https://maps.app.goo.gl/uBYrXHez45m73G4NA"
+              href="https://www.google.com/maps/place/RadhaVallabh+Diagnostic+Centre/@31.2418193,77.1224041,17z/data=!3m1!4b1!4m6!3m5!1s0x3905776f7792fc4d:0x26a6d23522c28873!8m2!3d31.2418193!4d77.1224041!16s%2Fg%2F11mcw8mfv9?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition"
