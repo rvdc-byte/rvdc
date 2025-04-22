@@ -27,7 +27,7 @@ const Location = () => {
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Working Hours</h3>
                 <p className="text-gray-600">
-                  Monday – Saturday: 9:00 AM – 8:00 PM<br />
+                  Monday – Saturday: 9:00 AM – 5:00 PM<br />
                   Sunday: Closed
                 </p>
               </div>
